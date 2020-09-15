@@ -153,7 +153,7 @@ footer::after {
   line-height: 0;
   position: absolute;
   top: 0;
-  right: 50%;
+  right: 40%;
   transform: translate(50vw, -99%);
   width: 420px;
 }
