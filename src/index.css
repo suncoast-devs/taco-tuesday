@@ -73,8 +73,7 @@ h1 img {
 .map {
   margin: 3rem 2rem;
   border: medium solid var(--purple-0);
-  border-image: url('./images/map-border.svg') 20 20 fill / 2rem / 0.5rem
-    stretch;
+  border-image: url('./images/map-border.svg') 16 fill / 2rem / 0.5rem stretch;
 }
 
 .map iframe {
