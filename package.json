@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "taco-tuesday",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": false
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1",
+    "stylelint": "^13.7.1",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "json": "^10.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3"
+  }
+}
