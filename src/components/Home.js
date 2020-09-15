@@ -28,7 +28,7 @@ export function Home() {
             aria-hidden="false"
           ></iframe>
         </section>
-        <ul>
+        <ul className="results">
           <li>
             <h2>Loli's Mexican Cravings</h2>
             <p>4.7 (2,188)</p>
