@@ -63,7 +63,7 @@ h1 img {
 }
 
 .search input {
-  font-family: 'Inika', serif;
+  font: 16px 'Inika', serif;
 }
 
 footer {
