@@ -68,9 +68,8 @@ h1 img {
   /* padding: 0.5rem; */
   background-color: transparent;
   /* border-image: url('./images/box.svg') 32 stretch 12px 12px; */
-  border-image: url('https://mdn.mozillademos.org/files/4127/border.png')
-    /* source */ 27 / /* slice */ 36px 28px 18px 8px / /* width */ 18px 14px 9px
-    4px /* outset */ round; /* repeat */
+  border-image: url('./images/box.svg') /* source */ 27 / /* slice */ 36px 28px
+    18px 8px / /* width */ 18px 14px 9px 4px /* outset */ round; /* repeat */
 }
 
 footer {
