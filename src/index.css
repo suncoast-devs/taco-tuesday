@@ -78,7 +78,8 @@ h1 img {
 
 .map iframe {
   width: 100%;
-  --aspect-ratio: 16/9;
+  height: 0;
+  padding-top: calc(100% / 0.6);
 }
 
 footer {
