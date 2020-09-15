@@ -132,7 +132,7 @@ h1 img {
 footer {
   text-align: center;
   position: relative;
-  height: 32px;
+  height: 64px;
 }
 
 footer::before {
