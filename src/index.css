@@ -115,7 +115,7 @@ h1 img {
   --percent: calc(var(--rating) / 5 * 100%);
   display: inline-block;
   /* font-size: 0.8rem; */
-  font-family: 'Times';
+  /* font-family: 'Times'; */
 }
 
 .stars::before {
