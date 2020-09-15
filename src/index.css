@@ -102,6 +102,10 @@ h1 img {
   margin: 0;
 }
 
+.results p {
+  margin: 0;
+}
+
 footer {
   text-align: center;
 }
