@@ -73,7 +73,7 @@ h1 img {
 .map {
   margin: 2rem 1rem;
   border: medium solid var(--purple-0);
-  border-image: url('./images/map-border.svg') 10 / 2rem / 0 round;
+  border-image: url('./images/map-border.svg') 10 / 2rem / 2rem round;
 }
 
 footer {
