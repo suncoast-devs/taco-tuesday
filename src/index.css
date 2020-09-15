@@ -154,6 +154,6 @@ footer::after {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-30vw, -98%);
+  transform: translate(-10vw, -98%);
   width: 320px;
 }
