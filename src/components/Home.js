@@ -17,11 +17,9 @@ export function Home() {
         <h1>
           <img src={tacoTuesday} alt="Taco Tuesday" />
         </h1>
-        <section className="search">
-          <form>
-            <input type="text" placeholder="Search..." />
-          </form>
-        </section>
+        <form>
+          <input type="text" placeholder="Search..." />
+        </form>
 
         <div>MAP</div>
         <ul>
