@@ -93,6 +93,10 @@ h1 img {
   padding-left: 0;
 }
 
+.results li {
+  border-bottom: thin solid var(--purple-0);
+}
+
 footer {
   text-align: center;
 }
