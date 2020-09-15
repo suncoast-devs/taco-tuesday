@@ -144,6 +144,6 @@ footer::before {
   top: 0;
   left: 20%;
   transform: translate(50%, -100%);
-  width: 98px;
+  width: 32px;
   /* height: 500px; */
 }
