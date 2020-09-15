@@ -124,8 +124,8 @@ h1 img {
   letter-spacing: 3px;
   background: linear-gradient(
     90deg,
-    white var(--percent),
-    goldenrod var(--percent)
+    goldenrod var(--percent),
+    white var(--percent)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
