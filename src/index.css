@@ -72,12 +72,12 @@ h1 img {
 
 .map {
   margin: 3rem 2rem;
+  margin: 8px 6px 2px 8px;
   border: medium solid var(--purple-0);
   border-image: url('./images/map-border.svg') 36 fill / 72px / 24px round;
 }
 
 .map iframe {
-  /* margin: 8px 6px 2px 8px; */
   width: 100%;
   height: 200px;
 }
