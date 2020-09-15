@@ -36,6 +36,12 @@ header {
   justify-content: space-between;
 }
 
+header ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
 footer {
   text-align: center;
 }
