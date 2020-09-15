@@ -68,8 +68,8 @@ h1 img {
   /* padding: 0.5rem; */
   background-color: transparent;
   /* border-image: url('./images/box.svg') 32 stretch 12px 12px; */
-  border-image: url('./images/box.svg') /* source */ 27 / /* slice */ 36px 28px
-    18px 8px / /* width */ 18px 14px 9px 4px /* outset */ round; /* repeat */
+  border-image: url('./images/box.svg') 27 36px 28px 18px 8px 18px 14px 9px 4px
+    round;
 }
 
 footer {
