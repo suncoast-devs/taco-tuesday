@@ -8,6 +8,10 @@ export function Home() {
         <li>About</li>
       </ul>
       <ul>Welcome back, Steve!</ul>
+      <h1>Taco Tuesday</h1>
+      <form>
+        <input type="text" placeholder="Search..." />
+      </form>
     </>
   )
 }
