@@ -27,7 +27,7 @@ export function Home() {
             width="600"
             height="450"
             frameBorder="0"
-            style={{ border: 0 }}
+            // style={{ border: 0 }}
             aria-hidden="false"
           ></iframe>
         </section>
