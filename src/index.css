@@ -114,6 +114,7 @@ h1 img {
 
 .results li:hover {
   background-color: var(--purple-0);
+  cursor: pointer;
 }
 
 .stars {
