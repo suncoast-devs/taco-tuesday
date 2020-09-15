@@ -115,7 +115,7 @@ h1 img {
   --percent: calc(var(--rating) / 5 * 100%);
 
   display: inline-block;
-  font-size: var(--star-size);
+  font-size: 1rem;
   font-family: Times; // make sure ★ appears correctly
   line-height: 1;
 
