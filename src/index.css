@@ -71,7 +71,7 @@ h1 img {
 }
 
 .map {
-  margin: 2rem 1rem;
+  margin: 3rem 1rem;
   border: medium solid var(--purple-0);
   border-image: url('./images/map-border.svg') 20 fill / 1.75rem / 1rem stretch;
 }
