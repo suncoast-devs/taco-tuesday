@@ -43,7 +43,7 @@ header ul {
 }
 
 header .avatar {
-  margin-bottom: -50%;
+  margin: 16px 16px -50%;
   background-image: url('./images/square.svg');
   height: 64px;
   width: 64px;
