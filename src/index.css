@@ -67,7 +67,7 @@ h1 img {
   border: none;
   /* padding: 0.5rem; */
   background-color: transparent;
-  border-image: url('./images/box.svg') 12px;
+  background-image: url('./images/box.svg');
 }
 
 footer {
