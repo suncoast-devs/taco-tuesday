@@ -35,7 +35,7 @@ export function Home() {
               4.7
               <span
                 class="stars"
-                style={{ '--rating': 2.3 }}
+                style={{ '--rating': 4.7 }}
                 aria-label="Rating of this product is 2.3 out of 5."
               ></span>
               (2,188)
@@ -44,7 +44,15 @@ export function Home() {
           </li>
           <li>
             <h2>La Hacienda Mexicana</h2>
-            <p>4.2 (245)</p>
+            <p>
+              4.2
+              <span
+                class="stars"
+                style={{ '--rating': 4.7 }}
+                aria-label="Rating of this product is 2.3 out of 5."
+              ></span>
+              (245)
+            </p>
             <p>5537 Sheldon Rs, Tampa, FL 33615</p>
           </li>
         </ul>
