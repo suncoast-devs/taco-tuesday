@@ -32,7 +32,7 @@ export function Home() {
           <li>
             <h2>Loli's Mexican Cravings</h2>
             <p>
-              4.7{' '}
+              4.7
               <span
                 class="stars"
                 style="--rating: 2.3;"
