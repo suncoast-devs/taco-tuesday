@@ -130,10 +130,12 @@ h1 img {
 }
 
 footer {
-  text-align: center;
   position: relative;
   height: 64px;
   margin-top: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer::before {
