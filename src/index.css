@@ -44,7 +44,7 @@ header .avatar {
   background-image: url('./images/square.svg');
   height: 64px;
   width: 64px;
-  padding: 8px;
+  padding: 0.4rem;
 }
 
 h1 {
