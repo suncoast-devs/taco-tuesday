@@ -1,6 +1,8 @@
 :root {
   font: 16px / 1 sans-serif;
-  --purple-med: #5a2b78;
+  --purple-0: #b271d6;
+  --purple-1: #5a2b78;
+  --purple-2: #371a4a;
 }
 
 html {
@@ -10,6 +12,6 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: var(--purple-med);
+  background-color: var(--purple-1);
   color: white;
 }
