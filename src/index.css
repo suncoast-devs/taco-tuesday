@@ -71,7 +71,7 @@ h1 img {
 }
 
 .map {
-  margin: 4rem 2rem;
+  margin: 3rem 2rem;
   border-image: url('./images/map-border.svg') 38 34 32 36 fill / 64px / 50px
     round;
   position: relative;
