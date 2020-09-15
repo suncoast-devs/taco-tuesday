@@ -12,6 +12,7 @@ export function Home() {
       <form>
         <input type="text" placeholder="Search..." />
       </form>
+      <div>MAP</div>
       <ul>
         <li>
           <h2>Loli's Mexican Cravings</h2>
