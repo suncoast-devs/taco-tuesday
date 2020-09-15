@@ -14,7 +14,7 @@ export function Home() {
         </ul>
         <ul>
           <li>Welcome back, Steve!</li>
-          <li>
+          <li className="avatar">
             <img src={avatar} alt="Steve's Avatar" height="64" width="64" />
           </li>
         </ul>
