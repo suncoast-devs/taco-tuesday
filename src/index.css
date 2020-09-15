@@ -47,8 +47,12 @@ header .avatar {
   padding: 8px;
 }
 
+h1 {
+  margin: 0 autl;
+}
+
 h1 img {
-  width: 100%🥶;
+  width: 100%;
 }
 
 footer {
