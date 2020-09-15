@@ -140,7 +140,6 @@ footer::before {
   position: absolute;
   bottom: 64px;
   left: 20%;
-  height: 45px;
   width: 92px;
   /* height: 500px; */
 }
