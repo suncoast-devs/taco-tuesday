@@ -65,7 +65,7 @@ h1 img {
 .search input {
   font: 1.25rem 'Inika', serif;
   border: none;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   border-image: url('./images/box.svg') 12px;
 }
 
