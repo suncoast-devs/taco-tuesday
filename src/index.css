@@ -123,7 +123,7 @@ h1 img {
   background: linear-gradient(
     90deg,
     goldenrod var(--percent),
-    white var(--percent)
+    #ffffffcc var(--percent)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
