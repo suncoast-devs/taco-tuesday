@@ -116,7 +116,7 @@ h1 img {
   display: inline-block;
   font-size: 0.8rem;
   font-family: 'Times';
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
 
 .stars::before {
