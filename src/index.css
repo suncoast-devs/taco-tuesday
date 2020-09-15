@@ -145,7 +145,7 @@ footer::before {
   top: 0;
   left: 50%;
   transform: translate(-30vw, -98%);
-  width: 64px;
+  width: 72px;
 }
 
 footer::after {
