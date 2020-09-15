@@ -31,9 +31,6 @@ footer {
   background-color: var(--purple-2);
 }
 
-header {
-}
-
 header ul {
   display: flex;
   justify-content: space-between;
