@@ -49,6 +49,7 @@ header .avatar {
 
 h1 {
   margin: 32px 16px 24px;
+  text-align: center;
 }
 
 h1 img {
