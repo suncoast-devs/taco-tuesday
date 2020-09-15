@@ -45,7 +45,6 @@ header ul {
 header .avatar {
   margin-bottom: -50%;
   background-image: url('./images/square.svg');
-  height: 64px;
   padding: 0.5rem;
 }
 
