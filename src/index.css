@@ -74,7 +74,7 @@ h1 img {
   margin: 3rem 2rem;
   padding: 0.5rem;
   border: medium solid var(--purple-0);
-  border-image: url('./images/map-border.svg') 36 fill / 72px / 72px round;
+  border-image: url('./images/map-border.svg') 36 fill / 72px / 8px round;
 }
 
 .map iframe {
