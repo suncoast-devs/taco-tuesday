@@ -117,17 +117,18 @@ h1 img {
   font-size: 1rem;
   font-family: 'Times';
   line-height: 1;
-  &::before {
-    content: '★★★★★';
-    letter-spacing: 3px;
-    background: linear-gradient(
-      90deg,
-      white var(--percent),
-      goldenrod var(--percent)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+}
+
+.stars::before {
+  content: '★★★★★';
+  letter-spacing: 3px;
+  background: linear-gradient(
+    90deg,
+    white var(--percent),
+    goldenrod var(--percent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer {
