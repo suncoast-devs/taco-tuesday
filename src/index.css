@@ -112,7 +112,8 @@ h1 img {
   line-height: 1.2rem;
 }
 
-.results li:hover {
+.results li:hover,
+.results li:focus {
   background-color: var(--purple-0);
   cursor: pointer;
 }
