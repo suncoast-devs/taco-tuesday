@@ -66,6 +66,7 @@ h1 img {
   font: 1.25rem 'Inika', serif;
   border: none;
   padding: 0.5rem;
+  border-image: url('./images/box.png');
 }
 
 footer {
