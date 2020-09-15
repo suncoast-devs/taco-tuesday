@@ -148,7 +148,7 @@ footer::before {
   width: 72px;
 }
 
-footer::after {
+/* footer::after {
   content: url('./images/truck.svg');
   line-height: 0;
   position: absolute;
@@ -156,4 +156,4 @@ footer::after {
   right: 50%;
   transform: translate(40vw, -99%);
   width: 420px;
-}
+} */
