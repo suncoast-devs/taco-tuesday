@@ -45,7 +45,6 @@ export function Home() {
           <li>
             <h2>La Hacienda Mexicana</h2>
             <p>
-              2.3
               <span
                 class="stars"
                 style={{ '--rating': 2.3 }}
