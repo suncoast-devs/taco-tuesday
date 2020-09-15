@@ -45,7 +45,7 @@ header ul {
 header .avatar {
   margin-bottom: -50%;
   background-image: url('./images/square.svg');
-  padding: 0.25rem;
+  padding: 0.5 rem;
 }
 
 footer {
