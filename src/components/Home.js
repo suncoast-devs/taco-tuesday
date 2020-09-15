@@ -17,7 +17,7 @@ export function Home() {
         <h1>
           <img src={tacoTuesday} alt="Taco Tuesday" />
         </h1>
-        <form className=".search">
+        <form className="search">
           <input type="text" placeholder="Search..." />
         </form>
 
