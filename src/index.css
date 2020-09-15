@@ -30,3 +30,7 @@ header,
 footer {
   background-color: var(--purple-2);
 }
+
+footer {
+  text-align: center;
+}
