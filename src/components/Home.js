@@ -5,14 +5,6 @@ export function Home() {
     <>
       <header>
         <ul>
-          <li>
-            <a href="/">Taco Tuesday</a>
-          </li>
-          <li>
-            <a href="/#about">About</a>
-          </li>
-        </ul>
-        <ul>
           <li>Welcome back, Steve!</li>
           <li className="avatar">
             <img src={avatar} alt="Steve's Avatar" height="64" width="64" />
