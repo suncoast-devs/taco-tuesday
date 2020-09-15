@@ -1,5 +1,7 @@
 import React from 'react'
 import avatar from '../images/avatar.png'
+import tacoTuesday from '../images/taco-tuesday.svg'
+
 export function Home() {
   return (
     <>
@@ -12,7 +14,9 @@ export function Home() {
         </ul>
       </header>
       <main>
-        <h1>Taco Tuesday</h1>
+        <h1>
+          <img src={tacoTuesday} alt="Taco Tuesday" />
+        </h1>
         <form>
           <input type="text" placeholder="Search..." />
         </form>
