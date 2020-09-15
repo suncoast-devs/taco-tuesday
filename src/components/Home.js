@@ -35,7 +35,7 @@ export function Home() {
               4.7
               <span
                 class="stars"
-                style="--rating: 2.3;"
+                style={{"--rating": 2.3;}}
                 aria-label="Rating of this product is 2.3 out of 5."
               ></span>
               (2,188)
