@@ -98,6 +98,10 @@ h1 img {
   border-bottom: thin solid var(--purple-0);
 }
 
+.results h2 {
+  margin: 0;
+}
+
 footer {
   text-align: center;
 }
