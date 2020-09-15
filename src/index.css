@@ -71,6 +71,7 @@ h1 img {
 }
 
 .map {
+  margin: 10px;
   border: medium solid var(--purple-0);
 }
 
