@@ -45,10 +45,10 @@ export function Home() {
           <li>
             <h2>La Hacienda Mexicana</h2>
             <p>
-              4.2
+              2.3
               <span
                 class="stars"
-                style={{ '--rating': 4.7 }}
+                style={{ '--rating': 2.3 }}
                 aria-label="Rating of this product is 2.3 out of 5."
               ></span>
               (245)
