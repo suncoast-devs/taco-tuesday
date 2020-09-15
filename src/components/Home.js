@@ -29,7 +29,6 @@ export function Home() {
             frameBorder="0"
             style={{ border: 0 }}
             aria-hidden="false"
-            tabIndex="0"
           ></iframe>
         </section>
         <ul>
