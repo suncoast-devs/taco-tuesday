@@ -5,8 +5,12 @@ export function Home() {
     <>
       <header>
         <ul>
-          <li>Taco Tuesday</li>
-          <li>About</li>
+          <li>
+            <a href="/">Taco Tuesday</a>
+          </li>
+          <li>
+            <a href="/#about">About</a>
+          </li>
         </ul>
         <ul>
           <li>Welcome back, Steve!</li>
