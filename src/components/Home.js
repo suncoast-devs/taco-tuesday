@@ -23,7 +23,7 @@ export function Home() {
 
         <section className="map">
           <iframe
-            src="https://www.google.com/maps/embed"
+            src="https://www.google.com/maps/embed&q=Eiffel+Tower,Paris+France"
             frameBorder="0"
             aria-hidden="false"
           ></iframe>
