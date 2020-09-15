@@ -65,7 +65,7 @@ h1 img {
 .search input {
   font: 16pt 'Inika', serif;
   border: none;
-  padding: 8px;
+  padding: 0.2rem;
 }
 
 footer {
