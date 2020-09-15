@@ -95,8 +95,11 @@ h1 img {
 }
 
 .results li {
-  border-bottom: thin solid var(--purple-0);
   padding: 1rem 0;
+}
+
+.results li + li {
+  border-bottom: thin solid var(--purple-0);
 }
 
 .results h2 {
