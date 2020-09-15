@@ -133,6 +133,7 @@ footer {
   text-align: center;
   position: relative;
   height: 64px;
+  margin-top: 64px;
 }
 
 footer::before {
