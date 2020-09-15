@@ -39,7 +39,7 @@ export function Home() {
               ></span>
               (2,188)
             </p>
-            <p>8005 Benjamin Rd, Tampa, FL 33634</p>
+            <address>8005 Benjamin Rd, Tampa, FL 33634</address>
           </li>
           <li>
             <h2>La Hacienda Mexicana</h2>
@@ -51,7 +51,7 @@ export function Home() {
               ></span>
               (245)
             </p>
-            <p>5537 Sheldon Rs, Tampa, FL 33615</p>
+            <address>5537 Sheldon Rs, Tampa, FL 33615</address>
           </li>
         </ul>
       </main>
