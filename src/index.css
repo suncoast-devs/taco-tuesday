@@ -71,7 +71,7 @@ h1 img {
 }
 
 .map {
-  border: thick solid var(--purple-0);
+  border: medium solid var(--purple-0);
 }
 
 footer {
