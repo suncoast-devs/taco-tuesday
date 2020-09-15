@@ -25,3 +25,8 @@ body {
 main {
   flex: 1;
 }
+
+header,
+footer {
+  background-color: var(--purple-2);
+}
