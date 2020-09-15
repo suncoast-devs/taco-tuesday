@@ -32,12 +32,11 @@ footer {
 }
 
 header {
-  display: flex;
-  justify-content: flex-end;
 }
 
 header ul {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   padding-left: 0;
 }
