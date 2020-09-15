@@ -35,7 +35,7 @@ export function Home() {
               <span
                 class="stars"
                 style={{ '--rating': 4.7 }}
-                aria-label="Rating of this product is 2.3 out of 5."
+                aria-label="Star rating of this location is 4.7 out of 5."
               ></span>
               (2,188)
             </p>
@@ -47,7 +47,7 @@ export function Home() {
               <span
                 class="stars"
                 style={{ '--rating': 2.3 }}
-                aria-label="Rating of this product is 2.3 out of 5."
+                aria-label="Star rating of this location is 2.3 out of 5."
               ></span>
               (245)
             </p>
