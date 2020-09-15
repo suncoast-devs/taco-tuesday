@@ -57,6 +57,11 @@ h1 img {
   max-width: 480px;
 }
 
+.search {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   text-align: center;
 }
