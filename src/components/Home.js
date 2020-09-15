@@ -23,7 +23,7 @@ export function Home() {
 
         <section className="map">
           <iframe
-            src="https://www.google.com/maps/embed"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14121.786063335707!2d-82.65914559999999!3d27.765212799999997"
             frameBorder="0"
             aria-hidden="false"
           ></iframe>
