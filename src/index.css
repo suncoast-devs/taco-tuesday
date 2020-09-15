@@ -143,7 +143,7 @@ footer::before {
   line-height: 0;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 40%;
   transform: translate(20vw, -98%);
   width: 64px;
 }
