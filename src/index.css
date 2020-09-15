@@ -140,7 +140,7 @@ footer {
 
 footer::before {
   content: url('./images/saguaro.svg');
-  line-height: 0.5;
+  line-height: 0;
   position: absolute;
   top: 0;
   left: 0;
