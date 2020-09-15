@@ -34,7 +34,9 @@ export function Home() {
           </li>
         </ul>
       </main>
-      <p>Built with &hearts; in St Petersburg, Florida.</p>
+      <footer>
+        <p>Built with &hearts; in St Petersburg, Florida.</p>
+      </footer>
     </>
   )
 }
