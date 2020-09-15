@@ -37,7 +37,7 @@ export function Home() {
                 class="stars"
                 style="--rating: 2.3;"
                 aria-label="Rating of this product is 2.3 out of 5."
-              ></span>{' '}
+              ></span>
               (2,188)
             </p>
             <p>8005 Benjamin Rd, Tampa, FL 33634</p>
