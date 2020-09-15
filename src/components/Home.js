@@ -1,5 +1,5 @@
 import React from 'react'
-
+import avatar from '../images/avatar.png'
 export function Home() {
   return (
     <>
@@ -7,7 +7,12 @@ export function Home() {
         <li>Taco Tuesday</li>
         <li>About</li>
       </ul>
-      <ul>Welcome back, Steve!</ul>
+      <ul>
+        <li>Welcome back, Steve!</li>
+        <li>
+          <img src={} alt="" />
+        </li>
+      </ul>
       <h1>Taco Tuesday</h1>
       <form>
         <input type="text" placeholder="Search..." />
