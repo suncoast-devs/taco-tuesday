@@ -150,7 +150,7 @@ footer::before {
 
 footer::after {
   content: url('./images/truck.svg');
-  /* line-height: 0; */
+  line-height: 0;
   position: absolute;
   top: 0;
   right: 50%;
