@@ -31,7 +31,15 @@ export function Home() {
         <ul className="results">
           <li>
             <h2>Loli's Mexican Cravings</h2>
-            <p>4.7 (2,188)</p>
+            <p>
+              4.7{' '}
+              <span
+                class="stars"
+                style="--rating: 2.3;"
+                aria-label="Rating of this product is 2.3 out of 5."
+              ></span>{' '}
+              (2,188)
+            </p>
             <p>8005 Benjamin Rd, Tampa, FL 33634</p>
           </li>
           <li>
