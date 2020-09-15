@@ -51,7 +51,7 @@ export function Home() {
               ></span>
               (245)
             </p>
-            <address>5537 Sheldon Rs, Tampa, FL 33615</address>
+            <address>5537 Sheldon Rd, Tampa, FL 33615</address>
           </li>
         </ul>
       </main>
