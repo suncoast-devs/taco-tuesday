@@ -141,7 +141,7 @@ footer {
 footer::before {
   content: url('./images/saguaro.svg');
   position: absolute;
-  top: 0;
+  top: -64px;
   left: 20%;
   width: 98px;
   /* height: 500px; */
