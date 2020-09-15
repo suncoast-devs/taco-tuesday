@@ -10,7 +10,7 @@ export function Home() {
       <ul>
         <li>Welcome back, Steve!</li>
         <li>
-          <img src={} alt="" />
+          <img src={avatar} alt="Steve's Avatar" />
         </li>
       </ul>
       <h1>Taco Tuesday</h1>
