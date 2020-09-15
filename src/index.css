@@ -147,3 +147,13 @@ footer::before {
   transform: translate(30vw, -98%);
   width: 64px;
 }
+
+footer::after {
+  content: url('./images/truck.svg');
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(30vw, -98%);
+  width: 64px;
+}
