@@ -167,4 +167,8 @@ footer::after {
     display: grid;
     grid-template-columns: 1fr 1.618fr;
   }
+
+  .map {
+    grid-column: 2
+  }
 }
