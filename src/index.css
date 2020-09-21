@@ -176,7 +176,7 @@ footer::after {
   }
 
   .map {
-    margin-top: 8em;
+    margin-top: 5em;
     grid-column: 2;
     grid-row: 1 / 4;
   }
