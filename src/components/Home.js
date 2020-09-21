@@ -39,7 +39,7 @@ export function Home() {
                 aria-label="Star rating of this location is 4.7 out of 5."
               ></span>
               (2,188)
-            </p>
+            </p>™
             <address>8005 Benjamin Rd, Tampa, FL 33634</address>
           </li>
           <li>
