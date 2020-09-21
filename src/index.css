@@ -166,6 +166,7 @@ footer::after {
   main {
     display: grid;
     grid-template-columns: 1fr 1.618fr;
+    gri
   }
 
   main > * {
