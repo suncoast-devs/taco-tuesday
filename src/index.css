@@ -168,6 +168,10 @@ footer::after {
     grid-template-columns: 1fr 1.618fr;
   }
 
+  main > * {
+    grid-column: 1;
+  }
+
   .map {
     grid-column: 2;
   }
