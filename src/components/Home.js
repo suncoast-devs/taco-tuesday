@@ -14,6 +14,7 @@ export function Home() {
         </ul>
       </header>
       <main>
+
         <h1>
           <img src={tacoTuesday} alt="Taco Tuesday" />
         </h1>
@@ -29,6 +30,7 @@ export function Home() {
             aria-hidden="false"
           ></iframe>
         </section>
+
         <ul className="results">
           <li>
             <h2>Loli's Mexican Cravings</h2>
