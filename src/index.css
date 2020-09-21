@@ -1,8 +1,9 @@
 :root {
-  font: 16px / 1 'Inika', serif;
   --purple-0: #b271d6;
   --purple-1: #5a2b78;
   --purple-2: #371a4a;
+
+  font: 16px / 1 'Inika', serif;
 }
 
 html {
@@ -118,17 +119,14 @@ h1 img {
 .stars {
   --rating: 0;
   --percent: calc(var(--rating) / 5 * 100%);
+
   display: inline-block;
 }
 
 .stars::before {
   content: '★★★★★';
   letter-spacing: 3px;
-  background: linear-gradient(
-    90deg,
-    goldenrod var(--percent),
-    #fffc var(--percent)
-  );
+  background: linear-gradient(90deg, goldenrod var(--percent), #fffc var(--percent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
