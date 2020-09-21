@@ -166,6 +166,7 @@ footer::after {
   main {
     display: grid;
     grid-template-columns: 1fr 1.618fr;
+    grid-auto-rows: min-content min-content auto;
   }
 
   main > * {
