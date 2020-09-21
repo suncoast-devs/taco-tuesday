@@ -18,6 +18,9 @@
     "singleQuote": true,
     "useTabs": false
   },
+  "stylelint": {
+    
+  },
   "devDependencies": {
     "prettier": "^2.1.1",
     "stylelint": "^13.7.1",
