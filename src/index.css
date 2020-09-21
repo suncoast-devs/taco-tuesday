@@ -116,6 +116,7 @@ h1 img {
 }
 
 .stars {
+  --rating: 0;
   --percent: calc(var(--rating) / 5 * 100%);
   display: inline-block;
 }
