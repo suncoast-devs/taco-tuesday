@@ -19,7 +19,7 @@
     "useTabs": false
   },
   "stylelint": {
-    
+    "extends": "stylelint-config-standard"
   },
   "devDependencies": {
     "prettier": "^2.1.1",
