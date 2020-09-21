@@ -160,3 +160,10 @@ footer::after {
   transform: translate(40vw, -99%);
   width: 420px;
 }
+
+@media only screen (min-width: 768px){
+
+  main {
+    display: grid;
+  }
+}
