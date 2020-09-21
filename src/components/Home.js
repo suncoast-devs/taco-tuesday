@@ -23,6 +23,7 @@ export function Home() {
 
         <section className="map">
           <iframe
+            title="Taco Map"
             src="https://www.google.com/maps/embed"
             frameBorder="0"
             aria-hidden="false"
