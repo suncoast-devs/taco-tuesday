@@ -14,7 +14,7 @@ export function Home() {
         </ul>
       </header>
       <main>
-  
+
         <h1>
           <img src={tacoTuesday} alt="Taco Tuesday" />
         </h1>
