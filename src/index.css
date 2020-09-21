@@ -166,7 +166,7 @@ footer::after {
   main {
     display: grid;
     max-width: 1440px;
-    margin: 4rem auto;
+    margin: 4rem auto inherit;
     grid-template-columns: 1fr 1.618fr;
     grid-auto-rows: min-content min-content auto;
   }
