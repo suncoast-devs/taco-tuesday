@@ -1,6 +1,10 @@
 import React from 'react'
 import avatar from '../images/avatar.png'
 import tacoTuesday from '../images/taco-tuesday.svg'
+import { Detail } from './Detail'
+import { NewLocation } from './NewLocation'
+import { SignIn } from './SignIn'
+import { SignUp } from './SignUp'
 
 export function Home() {
   return (
@@ -14,7 +18,6 @@ export function Home() {
         </ul>
       </header>
       <main>
-
         <h1>
           <img src={tacoTuesday} alt="Taco Tuesday" />
         </h1>
@@ -41,7 +44,7 @@ export function Home() {
                 aria-label="Star rating of this location is 4.7 out of 5."
               ></span>
               (2,188)
-            </p>™
+            </p>
             <address>8005 Benjamin Rd, Tampa, FL 33634</address>
           </li>
           <li>
@@ -61,6 +64,10 @@ export function Home() {
       <footer>
         <p>Built with &hearts; in St Petersburg, Florida.</p>
       </footer>
+      {/* <Detail /> */}
+      {/* <NewLocation /> */}
+      {/* <SignIn /> */}
+      {/* <SignUp /> */}
     </>
   )
 }
