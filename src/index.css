@@ -221,7 +221,7 @@ footer .fa-heart {
     grid-auto-rows: min-content min-content auto;
   }
 
-  main.home > * {
+  .home > * {
     grid-column: 1;
   }
 
