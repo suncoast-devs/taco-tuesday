@@ -1,6 +1,5 @@
 import React from 'react'
 import avatar from '../images/avatar.png'
-import tacoTuesday from '../images/taco-tuesday.svg'
 
 export function SignIn() {
   return (
