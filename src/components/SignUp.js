@@ -1,31 +1,56 @@
 import React from 'react'
+import avatar from '../images/avatar.png'
+import tacoTuesday from '../images/taco-tuesday.svg'
 
 export function SignUp() {
   return (
     <>
-      <div class="modal">
-        <div class="modal-content">
-          <button class="close-button">&times;</button>
+      <header>
+        <ul>
+          <li>
+            <nav>
+              <a href="#">
+                <i className="fa fa-plus"></i> Restaurant
+              </a>
+              <p>Welcome back, Steve!</p>
+            </nav>
+          </li>
+          <li className="avatar">
+            <img src={avatar} alt="Steve's Avatar" height="64" width="64" />
+          </li>
+        </ul>
+      </header>
+      <main class="page">
+        <nav>
+          <a href="/">
+            <i className="fa fa-home"></i>
+          </a>
           <h2>Sign Up</h2>
-          <form action="#">
-            <p className="form-input">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" />
-            </p>
-            <p className="form-input">
-              <label htmlFor="name">Email</label>
-              <input type="email" name="email" />
-            </p>
-            <p className="form-input">
-              <label htmlFor="password">Password</label>
-              <input type="password" name="password" />
-            </p>
-            <p>
-              <input type="submit" value="Submit" />
-            </p>
-          </form>
-        </div>
-      </div>
+        </nav>
+
+        <form action="#">
+          <p className="form-input">
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" />
+          </p>
+          <p className="form-input">
+            <label htmlFor="name">Email</label>
+            <input type="email" name="email" />
+          </p>
+          <p className="form-input">
+            <label htmlFor="password">Password</label>
+            <input type="password" name="password" />
+          </p>
+          <p>
+            <input type="submit" value="Submit" />
+          </p>
+        </form>
+      </main>
+      <footer>
+        <p>
+          Built with <i className="fa fa-heart"></i> in St Petersburg, Florida.
+        </p>
+      </footer>
     </>
   )
 }

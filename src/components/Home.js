@@ -1,23 +1,26 @@
 import React from 'react'
 import avatar from '../images/avatar.png'
 import tacoTuesday from '../images/taco-tuesday.svg'
-import { Detail } from './Detail'
-import { NewLocation } from './NewLocation'
-import { SignIn } from './SignIn'
-import { SignUp } from './SignUp'
 
 export function Home() {
   return (
     <>
       <header>
         <ul>
-          <li>Welcome back, Steve!</li>
+          <li>
+            <nav>
+              <a href="#">
+                <i className="fa fa-plus"></i> Restaurant
+              </a>
+              <p>Welcome back, Steve!</p>
+            </nav>
+          </li>
           <li className="avatar">
             <img src={avatar} alt="Steve's Avatar" height="64" width="64" />
           </li>
         </ul>
       </header>
-      <main>
+      <main class="home">
         <h1>
           <img src={tacoTuesday} alt="Taco Tuesday" />
         </h1>
@@ -62,12 +65,10 @@ export function Home() {
         </ul>
       </main>
       <footer>
-        <p>Built with &hearts; in St Petersburg, Florida.</p>
+        <p>
+          Built with <i className="fa fa-heart"></i> in St Petersburg, Florida.
+        </p>
       </footer>
-      {/* <Detail /> */}
-      {/* <NewLocation /> */}
-      {/* <SignIn /> */}
-      {/* <SignUp /> */}
     </>
   )
 }

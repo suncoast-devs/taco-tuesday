@@ -6,10 +6,6 @@
   font: 16px / 1 'Inika', serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   height: 100%;
 }
@@ -29,6 +25,29 @@ body {
 
 main {
   flex: 1;
+}
+
+main.page {
+  background-color: white;
+  color: var(--purple-2);
+  margin: 3rem 2rem;
+  padding: 0 1rem;
+  border: thick solid var(--purple-0);
+}
+
+.page nav {
+  display: flex;
+}
+
+.page nav a,
+.page nav h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0.5rem 1rem 0;
+}
+
+.page nav > * + *::before {
+  content: '>';
+  margin-right: 0.5rem;
 }
 
 header,
@@ -52,14 +71,35 @@ header .avatar {
   padding: 0.4rem;
 }
 
-main > h1 {
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav > * {
+  margin: 0 1rem;
+}
+
+header nav a {
+  background: var(--purple-0);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+main.home > h1 {
   margin: 48px 32px 32px;
   text-align: center;
 }
 
-main > h1 img {
+main.home > h1 img {
   width: 100%;
   max-width: 480px;
+}
+
+hr {
+  border: thin solid var(--purple-0);
 }
 
 .search {
@@ -168,8 +208,12 @@ footer::after {
   width: 420px;
 }
 
+footer .fa-heart {
+  color: crimson;
+}
+
 @media screen and (min-width: 960px) {
-  main {
+  main.home {
     display: grid;
     max-width: 1440px;
     margin: 4rem auto;
@@ -177,7 +221,7 @@ footer::after {
     grid-auto-rows: min-content min-content auto;
   }
 
-  main > * {
+  main.home > * {
     grid-column: 1;
   }
 
@@ -190,45 +234,6 @@ footer::after {
   .results {
     font-size: 1.2rem;
   }
-}
-
-.modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-  position: relative;
-  color: var(--purple-2);
-  background-color: white;
-  padding: 0 1rem;
-  width: 720px;
-  max-width: 100%;
-  max-height: 100%;
-  overflow-y: auto;
-}
-
-.modal .close-button {
-  position: absolute;
-  background-color: transparent;
-  z-index: 1;
-  top: 10px;
-  right: 10px;
-  border: none;
-  color: var(--purple-1);
-  font-size: 2rem;
-}
-
-.modal .close-button:active {
-  color: var(--purple-0);
 }
 
 .reviews {
@@ -300,7 +305,6 @@ input[type='submit'] {
   background: var(--purple-1);
   font-family: Inika, serif;
   color: white;
-  border-radius: 0.2rem;
   border: none;
   font-size: 1.2rem;
   padding: 0.5rem;
